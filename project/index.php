@@ -11,6 +11,10 @@
  *
  * @var bool
  */
+ 
+ini_set( 'display_errors', 'Off' );
+ini_set( 'error_reporting', E_ALL );
+
 define( 'WP_USE_THEMES', true );
 
 /** Loads the WordPress Environment and Template */

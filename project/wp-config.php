@@ -17,6 +17,9 @@
  *
  * @package WordPress
  */
+ 
+//define( 'WP_HOME','http://127.0.0.1:8081' );
+//define( 'WP_SITEURL','http://127.0.0.1:8081' );
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
@@ -26,7 +29,7 @@ define( 'DB_NAME', 'wp' );
 define( 'DB_USER', 'root' );
 
 /** Пароль к базе данных MySQL */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'root' );
 
 /** Имя сервера MySQL */
 define( 'DB_HOST', 'localhost' );
@@ -77,6 +80,7 @@ $table_prefix = 'lf_';
  * @link https://ru.wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
+define( 'WP_DEBUG_DISPLAY' , false );
 
 /* Это всё, дальше не редактируем. Успехов! */
 
